@@ -8,6 +8,7 @@ type client struct {
 	room   *room
 }
 
+//データ読み込み用のメソッド
 func (c *client) read() {
 	for {
 		if _, msg, err := c.socket.ReadMessage(); err == nil {
@@ -19,6 +20,7 @@ func (c *client) read() {
 	c.socket.Close()
 }
 
+//データ書き込み用のメソッド
 func (c *client) write() {
 	for msg := range c.send {
 		if err := c.socket.WriteMessage(websocket.TextMessage, msg);
