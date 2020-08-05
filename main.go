@@ -2,6 +2,7 @@ package main
 
 import (
 	"html/template"
+	"log"
 	"net/http"
 	"path/filepath"
 	"sync"
@@ -22,9 +23,11 @@ func (t *templateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
+	r := newRoom()
 	http.Handle("/", &templateHandler{filename: "chat.html"})
-	if err := http.ListenAndServe(":8080", nil);
-		err != nil {
-		http.ListenAndServe("ListenAndServe:", nil)
+	http.Handle("/room", r)
+	go r.run()
+	if err := http.ListenAndServe(":8080", nil); err != nil {
+		log.Fatal("ListenAndServe:", nil)
 	}
 }
