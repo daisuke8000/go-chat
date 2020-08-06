@@ -31,7 +31,7 @@ func main() {
 	http.Handle("/room", r)
 	go r.run()
 	log.Println("WebServe starting. Port : ", *addr)
-	if err := http.ListenAndServe(":8080", nil); err != nil {
+	if err := http.ListenAndServe(*addr, nil); err != nil {
 		log.Fatal("ListenAndServe:", nil)
 	}
 }
