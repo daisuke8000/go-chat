@@ -5,6 +5,8 @@ import (
 	"html/template"
 	"log"
 	"net/http"
+	"oreilly/trace"
+	"os"
 	"path/filepath"
 	"sync"
 )
@@ -16,7 +18,7 @@ type templateHandler struct {
 }
 
 func (t *templateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	t.once.Do(func(){
+	t.once.Do(func() {
 		t.temp =
 			template.Must(template.ParseFiles(filepath.Join("templates", t.filename)))
 		t.temp.Execute(w, r)
@@ -24,9 +26,10 @@ func (t *templateHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	var addr = flag.String("addr",":8080","Application,Address")
+	var addr = flag.String("addr", ":8080", "Application,Address")
 	flag.Parse()
 	r := newRoom()
+	r.tracer = trace.New(os.Stdout)
 	http.Handle("/", &templateHandler{filename: "chat.html"})
 	http.Handle("/room", r)
 	go r.run()
