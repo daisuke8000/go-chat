@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00985ba6-f906-402e-96d7-dbe6ae04fe37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/chat/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/chat/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="$USER_HOME$/.goenv/versions/1.12.9" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/chat" />
+  </component>
+  <component name="ProjectId" id="1fnVxsZcnrGf3Tx4RhP3icuOXbN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="go build oreilly/chat" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="oreilly" />
+      <working_directory value="$PROJECT_DIR$/chat" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="oreilly" />
+      <directory value="$PROJECT_DIR$/chat" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00985ba6-f906-402e-96d7-dbe6ae04fe37" name="Default Changelist" comment="" />
+      <created>1596854092593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596854092593</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="387" key="#GOROOT" timestamp="1596854112206">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="477" y="387" key="#GOROOT/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1596854112206" />
+    <state x="442" y="281" key="#Notifications" timestamp="1596854107642">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="442" y="281" key="#Notifications/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1596854107642" />
+    <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596854198696">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" width="1071" height="724" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1596854198696" />
+    <state width="458" height="529" key="GridCell.Tab.0.bottom" timestamp="1596859285113">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="458" height="529" key="GridCell.Tab.0.bottom/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1596859285113" />
+    <state width="458" height="529" key="GridCell.Tab.0.center" timestamp="1596859285112">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="458" height="529" key="GridCell.Tab.0.center/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1596859285112" />
+    <state width="458" height="529" key="GridCell.Tab.0.left" timestamp="1596859285112">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="458" height="529" key="GridCell.Tab.0.left/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1596859285112" />
+    <state width="458" height="529" key="GridCell.Tab.0.right" timestamp="1596859285113">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="458" height="529" key="GridCell.Tab.0.right/1440.0.1024.768/0.0.1440.900@0.0.1440.900" timestamp="1596859285113" />
+  </component>
+</project>
